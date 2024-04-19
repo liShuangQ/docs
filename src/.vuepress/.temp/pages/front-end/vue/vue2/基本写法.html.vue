@@ -1,6 +1,6 @@
-<template><div><p>Vue实例</p>
-<p>el 挂载点<br>
-1.el后可以使用其它选择器，建议使用id选择器<br>
+<template><div><h1 id="vue实例" tabindex="-1"><a class="header-anchor" href="#vue实例"><span>Vue实例</span></a></h1>
+<h2 id="el-挂载点" tabindex="-1"><a class="header-anchor" href="#el-挂载点"><span>el 挂载点</span></a></h2>
+<p>1.el后可以使用其它选择器，建议使用id选择器<br>
 2.只能支持双标签html，body除外（因为单标签的内部无法写{{message}}   ），建议挂载div 因为div没有基础的样式   ，p，h2等会有自己本身的样式
 3.其中Message对外部是没用的，在el元素命中的内部才可以使用
 4.new Vue   （V是大写的）<br>
@@ -11,8 +11,8 @@ methods 方法
 1.methods内写绑定的方法
 2.方法中通过this关键字   获取data中的数据
 Vue指令
-v-text
-设置元素文本   简写为 {{   }}</p>
+v-text</p>
+<h2 id="设置元素文本-简写为" tabindex="-1"><a class="header-anchor" href="#设置元素文本-简写为"><span>设置元素文本   简写为 {{   }}</span></a></h2>
 <ul>
 <li>
 <p>覆盖，会顶掉元素内之前写的内容</p>
@@ -50,7 +50,7 @@ v-on
 <li>添加 this.xxx += “yyy”
 案例：点击计数</li>
 </ul>
-<p>补充！！！</p>
+<h2 id="补充" tabindex="-1"><a class="header-anchor" href="#补充"><span>补充！！！</span></a></h2>
 <ul>
 <li>
 <p>事件绑定的方法写成函数调用的方式     xxx（）</p>
