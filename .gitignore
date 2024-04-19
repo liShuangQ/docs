@@ -1,7 +1,5 @@
 
 node_modules/
-src/.vuepress/.cache/
-src/.vuepress/.temp/
-.cache/*
-.temp/*
-dist/*
+.cache/
+.temp/
+dist/
