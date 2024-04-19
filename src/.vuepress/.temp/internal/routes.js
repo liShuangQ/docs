@@ -25,20 +25,3 @@ export const routes = Object.fromEntries([
   ["/front-end/vue/vue3/", { loader: () => import(/* webpackChunkName: "index.html" */"/Users/lishuangqi/myWork/my-docs/src/.vuepress/.temp/pages/front-end/vue/vue3/index.html.js"), meta: {"t":"Vue3"} }],
   ["/front-end/vue/vue2/%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/", { loader: () => import(/* webpackChunkName: "index.html" */"/Users/lishuangqi/myWork/my-docs/src/.vuepress/.temp/pages/front-end/vue/vue2/代码片段/index.html.js"), meta: {"t":"代码片段"} }],
 ]);
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateRoutes) {
-    __VUE_HMR_RUNTIME__.updateRoutes(routes)
-  }
-  if (__VUE_HMR_RUNTIME__.updateRedirects) {
-    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ routes, redirects }) => {
-    __VUE_HMR_RUNTIME__.updateRoutes(routes)
-    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
-  })
-}
