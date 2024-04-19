@@ -2,5 +2,4 @@
 node_modules/
 .cache/
 .temp/
-docs/
 .DS_Store
