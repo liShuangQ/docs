@@ -1,24 +1,6 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
-  // "/": [
-  //   "",
-  //   {
-  //     text: "案例",
-  //     prefix: "demo/",
-  //     link: "demo/",
-  //     children: "structure",
-  //   },
-  //   {
-  //     text: "文档",
-  //     prefix: "guide/",
-  //     children: "structure",
-  //   },
-  //   {
-  //     text: "幻灯片",
-  //     link: "https://plugin-md-enhance.vuejs.press/zh/guide/content/revealjs/demo.html",
-  //   },
-  // ],
   "/front-end/vue/vue2/":[
     {
       text: "介绍",
