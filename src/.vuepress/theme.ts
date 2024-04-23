@@ -25,7 +25,7 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "默认页脚",
+  footer: "永远相信美好的事情即将发生",
   displayFooter: true,
 
   // 加密配置
