@@ -26,7 +26,7 @@ export const backEnd =  {
             prefix: "dbs/",
             children: [
                 { text: "SQL", link: "SQL/介绍" },
-                { text: "配置安装", link: "db/介绍" },
+                { text: "数据库", link: "db/介绍" },
             ],
         },
     ],

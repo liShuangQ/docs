@@ -28,5 +28,11 @@ export const backEnd = {
             link: "常用依赖/",
             children: "structure",
         },
+        {
+            text: "常用配置",
+            prefix: "常用配置/",
+            link: "常用配置/",
+            children: "structure",
+        },
     ], 
 }
