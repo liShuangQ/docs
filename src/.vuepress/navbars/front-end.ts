@@ -12,13 +12,7 @@ export const frontEnd =  {
                 { text: "vue3", link: "vue3/介绍" },
             ],
         },
-        {
-            text: "小程序",
-            prefix: "miniProgram/",
-            children: [
-                { text: "微信", link: "weixin/介绍" },
-            ],
-        },
+        { text: "小程序", link: "miniProgram/介绍" },
         {
             text: "打包工具",
             prefix: "packingTool/",

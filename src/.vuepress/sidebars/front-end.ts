@@ -41,16 +41,11 @@ export const frontEnd = {
             children: "structure",
         },
     ],
-    "/front-end/miniProgram/weixin/": [
+    "/front-end/miniProgram/": [
         {
-            text: "基本写法",
-            prefix: "基本写法",
-            link: "基本写法",
-        },
-        {
-            text: "代码片段",
-            prefix: "代码片段/",
-            link: "代码片段/",
+            text: "小程序平台",
+            prefix: "小程序平台/",
+            link: "小程序平台/",
             children: "structure",
         }
     ],
