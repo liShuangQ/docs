@@ -66,6 +66,12 @@ export const frontEnd = {
     ],
     "/front-end/runTime/node/": [
         {
+            text: "配置安装",
+            prefix: "配置安装/",
+            link: "配置安装/",
+            children: "structure",
+        },
+        {
             text: "代码片段",
             prefix: "代码片段/",
             link: "代码片段/",

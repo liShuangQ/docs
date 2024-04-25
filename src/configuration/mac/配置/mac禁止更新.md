@@ -3,7 +3,9 @@ title: mac12 13系统禁止更新
 category:
   - 操作
 tag:
-  - mac 系统 更新
+  - mac 
+  - 系统 
+  - 更新
 ---
 
 ## 取消自动更新选项

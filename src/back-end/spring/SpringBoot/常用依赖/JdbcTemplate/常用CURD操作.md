@@ -1,9 +1,13 @@
 ---
 title: 常用CURD操作
 category:
-  - 操作 代码片段
+  - 操作  
+  - 代码片段
 tag:
-  - spring 框架 jdbc CURD
+  - spring  
+  - 框架  
+  - jdbc  
+  - CURD
 ---
 
 大致使用以下三个方法:1.execute方法，用于直接执行SQL语句2.update方法，用户新增修改删除操作3.query方法，用于查询方法

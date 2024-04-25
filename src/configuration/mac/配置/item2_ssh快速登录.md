@@ -3,7 +3,9 @@ title: item2 ssh快速登录
 category:
   - 操作
 tag:
-  - mac item2 ssh
+  - mac  
+  - item2  
+  - ssh
 ---
 
 ## 添加脚本
