@@ -8,7 +8,7 @@ bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
 heroText: 神秘空间
-tagline: 永远相信美好的事情即将发生。
+tagline: 这个主人很懒，什么都没留下。。。
 actions:
 #  - text: 使用指南
 #    icon: lightbulb
@@ -24,8 +24,8 @@ highlights:
     bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
     highlights:
-      - title: 各大语言, 包括但不限于 JS,TS,Vue,Node.js,Java,Kotlin 等等
-      - title: 各大框架, 包括但不限于 uniapp,Compose Multiplatform,electronjs,taro等等
+      - title: 各种语言, 包括但不限于 JS,TS,Vue,Node.js,Java,Kotlin 等等
+      - title: 各种框架, 包括但不限于 uniapp,Compose Multiplatform,electronjs,taro等等
       - title: 基本使用, 代码片段 等等
   - header: 配置&工具
     description: mac,win电脑配置,开发环境,好用的软件分享 等等
@@ -40,7 +40,7 @@ highlights:
         details: 轻量级编辑器
         link: https://code.visualstudio.com/
 
-      - title: idea
+      - title: Idea
         details: 领先的 Java 和 Kotlin IDE
         link: https://www.jetbrains.com/zh-cn/idea/
         
@@ -52,15 +52,15 @@ highlights:
         details: 运行于服务端的JavaScript解释器
         link: https://nodejs.org/en
         
-      - title: jdk
+      - title: Jdk
         details: 通用的，基于类的，面向对象的编程语言
         link: https://jdk.java.net/archive/
         
-      - title: vue
+      - title: Vue
         details: 易学易用，性能出色，适用场景丰富的 Web 前端框架
         link: https://cn.vuejs.org/
         
-      - title: spring
+      - title: Spring
         details: 一个轻量级Java开发框架
         link: https://spring.io/
         
