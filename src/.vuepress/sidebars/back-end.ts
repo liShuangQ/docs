@@ -35,4 +35,12 @@ export const backEnd = {
             children: "structure",
         },
     ], 
+    "/back-end/spring/SpringCloud/": [
+        {
+            text: "常用中间件",
+            prefix: "常用中间件/",
+            link: "常用中间件/",
+            children: "structure",
+        },
+    ], 
 }

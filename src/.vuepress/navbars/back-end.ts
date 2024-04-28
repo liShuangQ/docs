@@ -19,6 +19,7 @@ export const backEnd =  {
             prefix: "spring/",
             children: [
                 { text: "SpringBoot", link: "SpringBoot/介绍" },
+                { text: "SpringCloud", link: "SpringCloud/介绍" },
             ],
         },
         {
