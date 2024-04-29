@@ -20,7 +20,7 @@ brew install rabbitmq
 
 终端根目录输入 `vi .zshrc` 编辑添加
 
-注意：你的版本不一定是3.13.1，通过输入`brew list rabbitmq`获取到对应的文件夹地址
+注意：你的版本不一定是 3.13.1，通过输入`brew list rabbitmq`获取到对应的文件夹地址
 
 ```shell
  export RABBIT_HOME=/opt/homebrew/Cellar/rabbitmq/3.13.1
@@ -29,7 +29,7 @@ brew install rabbitmq
 
 ### 启用插件
 
-`启用rabbitmq management插件`
+`启用rabbitmq management插件，用于开启浏览器后台页面`
 
 ```shell
 sudo rabbitmq-plugins enable rabbitmq_management
@@ -41,9 +41,36 @@ sudo rabbitmq-plugins enable rabbitmq_management
 - `brew services start rabbitmq` 启动
 - `brew services stop rabbitmq` 停止
 
+### 配置用户
+
+`不配置用户远程连接是不被允许的,在开启rabbit后执行`
+
+命令行添加
+
+```shell
+# 添加用户
+rabbitmqctl add_user admin password
+# 设置为管理员
+rabbitmqctl set_user_tags admin administrator
+```
+
+在管理页面添加（先执行下一步之后）
+
+![alt text](imgs/anzhuang/image2.png)
+
 ### 访问可视化监控插件的界面
 
 浏览器内输入 http://localhost:15672, 默认的用户名密码都是 guest
+
+经过上方设置后 账号为 admin 密码为 password
+
+### 为虚拟主机配置用户
+
+![alt text](imgs/anzhuang/image.png)
+
+向下滚动找到对应用户添加（这里是刚刚创建的用户）
+
+![alt text](imgs/anzhuang/image-1.png)
 
 ### 一些命令
 
