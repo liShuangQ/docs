@@ -1,5 +1,5 @@
 ---
-title: 3.java中的简单使用
+title: 3.java中的简单接收
 category:
   - 介绍
   - 代码片段
@@ -11,7 +11,7 @@ tag:
   - java
 ---
 
-## 发送
+### 发送
 
 ```java
 /**
@@ -68,7 +68,7 @@ public class Send {
 }
 ```
 
-## 接收
+### 接收
 
 ```java
 
