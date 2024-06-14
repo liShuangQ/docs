@@ -27,6 +27,12 @@ export const frontEnd = {
             link: "代码片段/",
             children: "structure",
         },
+        {
+            text: "常用库代码",
+            prefix: "常用库代码/",
+            link: "常用库代码/",
+            children: "structure",
+        },
     ],
     "/front-end/vue/vue3/": [
         {
