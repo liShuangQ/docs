@@ -53,6 +53,7 @@ tag:
                             {
                                 map: city,
                                 roam: true,
+                                silent: true,
                                 zoom: zoom,
                                 center: center,
                                 label: {
