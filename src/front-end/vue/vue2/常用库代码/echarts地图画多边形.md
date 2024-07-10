@@ -50,6 +50,7 @@ tag:
                     ]
                 };
                 this.myChart.setOption(option);
+                // this.setNullGraphicAndRecMap() 做优化时 可用此清除图形等，不用每次重新渲染整个图
                 let debounceFun = null
                 let setGraphic = null
                 // 多边形还是圆形
@@ -124,7 +125,13 @@ tag:
                     },
                 });
                 this.lock = show
-            }
+            },
+            setNullGraphicAndRecMap(data) {
+                let chartOption = this.mapChart.getOption();
+                chartOption.graphic = [];
+                this.mapChart.setOption(chartOption, true);
+                this.mapChart.off('georoam');
+            },
         },
 
         beforeDestroy() {
