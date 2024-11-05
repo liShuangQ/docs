@@ -3,8 +3,8 @@ home: true
 icon: home
 title: 主页
 heroImage:
-bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
-bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
+bgImage: https://public.ysjf.com/product/preview/Zf0Chqcxd0.jpg
+bgImageDark: https://public.ysjf.com/product/preview/Zf0Chqcxd0.jpg
 bgImageStyle:
   background-attachment: fixed
 heroText: 神秘空间
@@ -21,8 +21,8 @@ actions:
 highlights:
   - header: 前端&后端&跨端
     image:
-    bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
+    bgImage: https://public.ysjf.com/content/title-image/ekRDsABDQCbo.png
+    bgImageDark: https://public.ysjf.com/content/title-image/ekRDsABDQCbo.png
     highlights:
       - title: 各种语言, 包括但不限于 JS,TS,Vue,Node.js,Java,Kotlin 等等
       - title: 各种框架, 包括但不限于 uniapp,Compose Multiplatform,electronjs,taro等等
