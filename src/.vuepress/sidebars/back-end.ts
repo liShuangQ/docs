@@ -1,45 +1,29 @@
-export const backEnd = {  
-    "/back-end/dbs/SQL/": [
+export const backEnd = {
+    "/back-end/dbs/": [
         {
-            text: "语法",
-            prefix: "语法/",
-            link: "语法/",
+            text: "db",
+            prefix: "db/",
+            link: "db/",
             children: "structure",
         },
         {
-            text: "方言",
-            prefix: "方言/",
-            link: "方言/",
+            text: "Sql",
+            prefix: "SQL/",
+            link: "SQL/",
             children: "structure",
         },
     ],
-    "/back-end/dbs/db/": [
+    "/back-end/spring/": [
         {
-            text: "常用数据库",
-            prefix: "常用数据库/",
-            link: "常用数据库/",
-            children: "structure",
-        },
-    ],  
-    "/back-end/spring/SpringBoot/": [
-        {
-            text: "常用依赖",
-            prefix: "常用依赖/",
-            link: "常用依赖/",
+            text: "SpringBoot",
+            prefix: "SpringBoot/",
+            link: "SpringBoot/",
             children: "structure",
         },
         {
-            text: "常用配置",
-            prefix: "常用配置/",
-            link: "常用配置/",
-            children: "structure",
-        },
-    ], 
-    "/back-end/spring/SpringCloud/": [
-        {
-            text: "常用中间件",
-            prefix: "常用中间件/",
-            link: "常用中间件/",
+            text: "SpringCloud",
+            prefix: "SpringCloud/",
+            link: "SpringCloud/",
             children: "structure",
         },
     ], 

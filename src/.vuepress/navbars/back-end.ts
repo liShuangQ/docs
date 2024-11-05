@@ -1,4 +1,4 @@
-export const backEnd =  {
+export const backEnd = {
     text: "后端",
     prefix: "/back-end/",
     children: [
@@ -14,21 +14,7 @@ export const backEnd =  {
         //     children: [
         //     ],
         // },
-        {
-            text: "Spring",
-            prefix: "spring/",
-            children: [
-                { text: "SpringBoot", link: "SpringBoot/介绍" },
-                { text: "SpringCloud", link: "SpringCloud/介绍" },
-            ],
-        },
-        {
-            text: "数据库",
-            prefix: "dbs/",
-            children: [
-                { text: "SQL", link: "SQL/介绍" },
-                { text: "数据库", link: "db/介绍" },
-            ],
-        },
+        {text: "Spring", link: "spring/SpringBoot/介绍"},
+        {text: "数据库", link: "dbs/db/介绍"},
     ],
 }

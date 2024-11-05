@@ -13,13 +13,6 @@ export const frontEnd = {
             prefix: "机制/",
             link: "机制/",
             children: "structure",
-        }
-    ],
-    "/front-end/vue/vue2/": [
-        {
-            text: "基本写法",
-            prefix: "基本写法",
-            link: "基本写法",
         },
         {
             text: "代码片段",
@@ -27,23 +20,18 @@ export const frontEnd = {
             link: "代码片段/",
             children: "structure",
         },
+    ],
+    "/front-end/vue/": [
         {
-            text: "常用库代码",
-            prefix: "常用库代码/",
-            link: "常用库代码/",
+            text: "vue2",
+            prefix: "vue2/",
+            link: "vue2/",
             children: "structure",
         },
-    ],
-    "/front-end/vue/vue3/": [
         {
-            text: "基本写法",
-            prefix: "基本写法",
-            link: "基本写法",
-        },
-        {
-            text: "代码片段",
-            prefix: "代码片段/",
-            link: "代码片段/",
+            text: "vue3",
+            prefix: "vue3/",
+            link: "vue3/",
             children: "structure",
         },
     ],
@@ -55,33 +43,26 @@ export const frontEnd = {
             children: "structure",
         }
     ],
-    "/front-end/packingTool/webpack/": [
+    "/front-end/packingTool/": [
         {
-            text: "基本配置",
-            prefix: "基本配置",
-            link: "基本配置",
-        }
-    ],
-    "/front-end/packingTool/vite/": [
-        {
-            text: "插件",
-            prefix: "插件/",
-            link: "插件/",
-            children: "structure",
-        }
-    ],
-    "/front-end/runTime/node/": [
-        {
-            text: "配置安装",
-            prefix: "配置安装/",
-            link: "配置安装/",
+            text: "webpack",
+            prefix: "webpack",
+            link: "packingTool/webpack/",
             children: "structure",
         },
         {
-            text: "代码片段",
-            prefix: "代码片段/",
-            link: "代码片段/",
+            text: "vite",
+            prefix: "vite",
+            link: "packingTool/vite/",
             children: "structure",
         }
+    ],
+    "/front-end/runTime/": [
+        {
+            text: "node",
+            prefix: "node",
+            link: "packingTool/node/",
+            children: "structure",
+        },
     ],
 }
