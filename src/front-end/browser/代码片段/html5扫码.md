@@ -8,7 +8,6 @@ tag:
 
 - `注意其中使用了实验性API` [BarcodeDetector](https://developer.mozilla.org/zh-CN/docs/Web/API/BarcodeDetector)
 
-![img.png](imgs/h5scan/img.png)
 ```js
    const getCamerasScan = async () => {
     try {
@@ -101,3 +100,5 @@ tag:
     }
 }
 ```
+
+![img.png](imgs/h5scan/img.png)
